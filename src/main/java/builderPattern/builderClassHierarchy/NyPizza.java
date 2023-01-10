@@ -2,7 +2,7 @@ package builderPattern.builderClassHierarchy;
 
 import java.util.Objects;
 
-class NyPizza extends Pizza{
+public class NyPizza extends Pizza{
     public enum Size {SMALL, MEDIUM, LARGE}
     private final Size size;
 
@@ -14,7 +14,7 @@ class NyPizza extends Pizza{
         }
 
         @Override
-        NyPizza build() {
+        public NyPizza build() {
             return new NyPizza(this);
         }
 
