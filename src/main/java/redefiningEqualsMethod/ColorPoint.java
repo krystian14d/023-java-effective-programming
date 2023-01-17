@@ -1,4 +1,4 @@
-package refefiningEqualsMethod;
+package redefiningEqualsMethod;
 
 import java.awt.*;
 import java.util.Objects;

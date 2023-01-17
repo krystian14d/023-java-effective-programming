@@ -1,4 +1,4 @@
-package refefiningEqualsMethod;
+package redefiningEqualsMethod;
 
 class Point {
 
